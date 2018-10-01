@@ -1,8 +1,15 @@
 package main.study.scala.com.tdj.study
 
-import org.apache.spark.streaming.{Seconds, StreamingContext}
+import java.sql.{Connection, DriverManager}
+
+import org.apache.spark.streaming.{Durations, Seconds, StreamingContext}
 import org.apache.spark.{HashPartitioner, SparkConf, SparkContext}
 
+import scala.concurrent.duration.Duration
+
+/**
+  * 实时按批次累计的功能,实现WordCount
+  */
 object StreamingWC {
   def main(args: Array[String]): Unit = {
 //    myLog.setLogLeavel(Level.ERROR)
@@ -12,33 +19,38 @@ object StreamingWC {
     val sc = new SparkContext(conf)
 //    sc.setLogLevel(Level.ERROR)
     val ssc = new StreamingContext(conf,Seconds(2))
+    ssc.remember(Durations.seconds(2))
     //拉取socket的信息
     val dStream = ssc.socketTextStream("localhost",10086)
+//   Window 环境下用命令 nc -l -p 10086
+//   Linux 下用 nc -lk 10086
     //使用updateStateByKey这个算子必须设置setCheckpointDir
     sc.setCheckpointDir("C:\\data\\checkpoint")
     ssc.checkpoint("C:\\data\\checkpoint")
+
 //    计算wordcount累计
-    val res = dStream.flatMap(_.split(" ")).map((_,1)).updateStateByKey(updateFunc,new HashPartitioner(sc.defaultParallelism),true)
+    val res = dStream.flatMap(_.split(" ")).map((_,1)).updateStateByKey(updateFunc,new HashPartitioner(sc.defaultParallelism),false)
     //计算wordcount 每个批次
 //        val res = dStream.flatMap(_.split(" ")).map((_, 1)).reduceByKey(_+_)
 //    结果打印到控制台
     res.print()
+
 //    结果写到Mysql
-   /* res.foreachRDD({
+    res.foreachRDD({
       rdd => rdd.foreachPartition({
         it => {
-          val conn:Connection = DriverManager.getConnection("jdbc:mysql://192.168.8.212","root","Root@1234")
+          val conn:Connection = DriverManager.getConnection("jdbc:mysql://192.168.8.212:3306/lianxi","root","Root@1234")
           it.foreach({
               wc =>
-                 val pst = conn.prepareStatement("select * from t_wc where word = ?")
+                 val pst = conn.prepareStatement("select * from lianxi.t_wc where wordval = ?")
                  pst.setString(1,wc._1)
                  val rs = pst.executeQuery()
                  var flag = true
 
               while(rs.next()){
                  flag = false
-                 val preCount = rs.getInt("counts")
-                 val pst1 = conn.prepareStatement("update t_wc set counts = ? where word = ?")
+                 val preCount = rs.getInt("wordcnt")
+                 val pst1 = conn.prepareStatement("update t_wc set wordcnt = ? where wordval = ?")
                  pst1.setInt(1, wc._2 + preCount)
                  pst1.setString(2, wc._1)
                  pst1.executeUpdate()
@@ -55,11 +67,13 @@ object StreamingWC {
                 pst1.close()
 
               }
+
+              try{}
+              conn.close()
           })
         }
       })
-    })*/
-
+    })
 //
     ssc.start()
     ssc.awaitTermination()
