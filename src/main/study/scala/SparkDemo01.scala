@@ -1,4 +1,4 @@
-package main.study.scala.com.tdj.study
+package scala
 
 import org.apache.spark.{SparkConf, SparkContext}
 

@@ -1,6 +1,6 @@
-package main.study.scala.com.tdj.study
+package scala
 
-import org.apache.spark.sql.types.{DataTypes, IntegerType, StructField, StructType}
+import org.apache.spark.sql.types.{DataTypes, StructField, StructType}
 import org.apache.spark.sql.{DataFrame, Row, SQLContext}
 import org.apache.spark.{SparkConf, SparkContext}
 

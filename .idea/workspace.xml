@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="360de4a2-f021-40c1-9d7e-f804a07bc51b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/CustomSort.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/JsonTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/LogDemo01.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/LogDemo02.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/LogDemo03.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/SparkDemo01.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWC.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWC2.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWindowWC.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/sparkRDDTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/specifySchema.scala" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,9 +37,9 @@
         </entry>
       </file>
       <file leaf-file-name="CustomSort.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/CustomSort.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/study/scala/CustomSort.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
+            <state relative-caret-position="432">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
@@ -35,19 +47,19 @@
         </entry>
       </file>
       <file leaf-file-name="JsonTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/JsonTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/study/scala/JsonTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="54">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SparkDemo01.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/SparkDemo01.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/study/scala/SparkDemo01.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="270">
               <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding />
             </state>
@@ -55,12 +67,12 @@
         </entry>
       </file>
       <file leaf-file-name="StreamingWC.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWC.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWC.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="44" column="80" lean-forward="false" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+            <state relative-caret-position="433">
+              <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
               <folding>
-                <element signature="e#40#83#0" expanded="true" />
+                <element signature="e#15#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,9 +89,9 @@
         </entry>
       </file>
       <file leaf-file-name="StreamingWC2.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWC2.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWC2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="54">
               <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding />
             </state>
@@ -87,21 +99,19 @@
         </entry>
       </file>
       <file leaf-file-name="specifySchema.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/specifySchema.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/study/scala/specifySchema.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="108">
               <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <element signature="e#40#123#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="sparkRDDTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/sparkRDDTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/study/scala/sparkRDDTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="621">
               <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding />
             </state>
@@ -109,9 +119,9 @@
         </entry>
       </file>
       <file leaf-file-name="StreamingWindowWC.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWindowWC.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWindowWC.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="459">
               <caret line="20" column="91" lean-forward="false" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
               <folding />
             </state>
@@ -134,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/specifySchema.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWC.scala" />
+        <option value="$PROJECT_DIR$/src/main/study/scala/StreamingWC.scala" />
       </list>
     </option>
   </component>
@@ -205,24 +216,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demi02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demi02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demi02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demi02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,6 +235,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="scala" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\albert\Documents\demi02" />
     </key>
@@ -261,11 +258,11 @@
     <configuration name="CustomSort" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="main.study.scala.com.tdj.study.*" />
+          <option name="PATTERN" value="scala.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="main.study.scala.com.tdj.study.CustomSort" />
+      <option name="MAIN_CLASS_NAME" value="scala.CustomSort" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -280,11 +277,11 @@
     <configuration name="SparkDemo01" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="main.study.scala.com.tdj.study.*" />
+          <option name="PATTERN" value="scala.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="main.study.scala.com.tdj.study.SparkDemo01" />
+      <option name="MAIN_CLASS_NAME" value="scala.SparkDemo01" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -299,11 +296,11 @@
     <configuration name="StreamingWC" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="main.study.scala.com.tdj.study.*" />
+          <option name="PATTERN" value="scala.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="main.study.scala.com.tdj.study.StreamingWC" />
+      <option name="MAIN_CLASS_NAME" value="scala.StreamingWC" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -318,11 +315,11 @@
     <configuration name="StreamingWC2" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="main.study.scala.com.tdj.study.*" />
+          <option name="PATTERN" value="scala.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="main.study.scala.com.tdj.study.StreamingWC2" />
+      <option name="MAIN_CLASS_NAME" value="scala.StreamingWC2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -418,11 +415,11 @@
     <configuration name="specifySchema" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="main.study.scala.com.tdj.study.*" />
+          <option name="PATTERN" value="scala.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="main.study.scala.com.tdj.study.specifySchema" />
+      <option name="MAIN_CLASS_NAME" value="scala.specifySchema" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -470,7 +467,7 @@
       <updated>1537524980394</updated>
       <workItem from="1537524981926" duration="9968000" />
       <workItem from="1538151524172" duration="12972000" />
-      <workItem from="1538401937961" duration="22000" />
+      <workItem from="1538401937961" duration="2042000" />
     </task>
     <task id="LOCAL-00001" summary="commit 01">
       <created>1537525088477</created>
@@ -479,11 +476,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537525088477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit 1001">
+      <created>1538401976231</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538401976231</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22962000" />
+    <option name="totallyTimeSpent" value="24982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -501,7 +505,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32239583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32239583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -527,7 +531,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 01" />
+    <MESSAGE value="commit 1001" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 1001" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -542,7 +547,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/CustomSort.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/CustomSort.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -550,7 +555,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/JsonTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/JsonTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
@@ -558,7 +563,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/SparkDemo01.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/SparkDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
@@ -574,7 +579,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWC2.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWC2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
@@ -582,17 +587,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/specifySchema.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/specifySchema.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#40#123#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/sparkRDDTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/sparkRDDTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
@@ -600,7 +603,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWindowWC.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWindowWC.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="20" column="91" lean-forward="false" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
@@ -608,12 +611,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWC.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWC.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="44" column="80" lean-forward="false" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
           <folding>
-            <element signature="e#40#83#0" expanded="true" />
+            <element signature="e#15#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -626,7 +629,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/CustomSort.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/CustomSort.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
@@ -634,7 +637,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/JsonTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/JsonTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
@@ -642,7 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/SparkDemo01.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/SparkDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
@@ -650,12 +653,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWC.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWC.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding>
-            <element signature="e#40#83#0" expanded="true" />
+            <element signature="e#15#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -668,17 +671,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/specifySchema.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/specifySchema.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="e#40#123#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/sparkRDDTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/sparkRDDTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
@@ -686,7 +687,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWindowWC.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWindowWC.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="20" column="91" lean-forward="false" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
@@ -694,7 +695,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWC2.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWC2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
@@ -710,33 +711,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/JsonTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/JsonTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="54">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWindowWC.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWindowWC.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
+        <state relative-caret-position="459">
           <caret line="20" column="91" lean-forward="false" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/sparkRDDTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/sparkRDDTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
+        <state relative-caret-position="621">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/SparkDemo01.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/SparkDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="270">
           <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding />
         </state>
@@ -749,27 +750,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWC2.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWC2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="54">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/specifySchema.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/specifySchema.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="108">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#40#123#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/CustomSort.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/CustomSort.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="432">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
@@ -783,12 +782,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/study/scala/com/tdj/study/StreamingWC.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/study/scala/StreamingWC.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="44" column="80" lean-forward="false" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+        <state relative-caret-position="433">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
           <folding>
-            <element signature="e#40#83#0" expanded="true" />
+            <element signature="e#15#58#0" expanded="true" />
           </folding>
         </state>
       </provider>

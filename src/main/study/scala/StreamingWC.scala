@@ -1,11 +1,9 @@
-package main.study.scala.com.tdj.study
+package scala
 
 import java.sql.{Connection, DriverManager}
 
 import org.apache.spark.streaming.{Durations, Seconds, StreamingContext}
 import org.apache.spark.{HashPartitioner, SparkConf, SparkContext}
-
-import scala.concurrent.duration.Duration
 
 /**
   * 实时按批次累计的功能,实现WordCount

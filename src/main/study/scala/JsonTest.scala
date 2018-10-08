@@ -1,6 +1,5 @@
-package main.study.scala.com.tdj.study
+package scala
 
-import com.alibaba.fastjson.JSON
 import org.apache.spark.{SparkConf, SparkContext}
 
 object JsonTest {
